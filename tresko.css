@@ -1,0 +1,77 @@
+html {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+    background-color: rgb(12, 12, 12);
+    color: #fefefe;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 12, 12, 0.5);
+}
+
+.top-box {
+    padding: 1rem;
+}
+
+.tresko {
+    font-size: 4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-shadow: 0 0 12px rgba(0, 0, 0, .5);
+    padding: 1rem;
+    border-bottom: 1px solid transparent;
+}
+
+.links {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.promo-link {
+    display: block;
+    font-size: 1.25rem;
+    padding: 1rem;
+    border-top: 1px solid transparent;
+}
+
+.promo-link:first-child {
+    border-right: 1px solid transparent;
+}
+
+a.promo-link {
+    color: #8bd2fc;
+    transition: text-decoration linear .25s;
+    text-shadow: 0 0 12px rgba(0, 0, 0, .5);
+}
+
+a.promo-link:hover,
+a.promo-link:focus {
+    text-decoration: none;
+    text-shadow: inset 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.video {
+    /* min-height: 720px; */
+    object-fit: cover;
+    z-index: -1;
+    margin-left: auto;
+    margin-right: auto;
+}
