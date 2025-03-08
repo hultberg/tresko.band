@@ -36,7 +36,11 @@ body {
 }
 
 .tresko {
+	font-family: "Metal Mania", system-ui;
+	font-weight: 400;
+	font-style: normal;
     font-size: 4rem;
+	text-align: center;
     margin-bottom: 0;
     margin-top: 0;
     color: black;
